@@ -1,0 +1,114 @@
+body {
+    background-color: #f1f1f1;
+    overflow: hidden;
+}
+
+.top-title {
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+    margin-bottom: 2%;
+    /*border: 1px solid black;*/
+}
+
+.top-title input {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.top-title span {
+    display: block;
+    float: left;
+    width: 10%;
+}
+
+#editNewPost {
+    float: left;
+    margin-top: 2%;
+    /*border: 1px solid black;*/
+    padding: 2%;
+    height: 570px;
+}
+
+#editNewPost h5 {
+    position: absolute;
+    top: -2%;
+    background-color: #f1f1f1;
+}
+
+#addCategory {
+    float: left;
+    margin-top: 2%;
+    height: 570px;
+    padding: 0px;
+}
+
+.statepost {
+    /*border: 1px solid black;*/
+    width: 100%;
+    background-color: white;
+    height: auto;
+    padding: 8%;
+}
+
+.statepost select {
+    margin-bottom: 3%;
+}
+
+
+
+.right h3, #category h5 {
+    color: #7d1917;
+    font-weight: bold;
+    padding-bottom: 3%;
+    font-family: "FS Nokio Regular";
+}
+
+.title span {
+    font-size: 20px;
+    font-family: "FS Nokio Regular";
+}
+
+.rdbtn-category {
+    /*border: 1px solid black;*/
+    background-color: white;
+    width: 100%;
+    height: auto;
+    max-height: 120px;
+    overflow-y: scroll;
+
+}
+
+#category p {
+    margin-top: 2%;
+}
+
+.rdbtn-category div {
+    width: 100%;
+    float: left;
+    padding-bottom: 2%;
+}
+
+#category p {
+    font-family: "FS Nokio Regular";
+    font-weight: bold;
+}
+.addTag {
+    /*border: 1px solid black;*/
+    background-color: white;
+    padding: 8%;
+    height: auto;
+    margin-top: 5%;
+    font-family: "FS Nokio Regular";
+    font-weight: bold;
+    color: #7d1917;
+    font-size: 16px;
+}
+
+.addTag div {
+    height: 37px;
+    overflow-y: scroll;
+}
